@@ -1,0 +1,25 @@
+# Compiled executables
+main
+main_enhanced
+*.out
+*.exe
+
+# Debug symbols
+*.dSYM/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
