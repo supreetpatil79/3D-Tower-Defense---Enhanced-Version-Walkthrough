@@ -1,60 +1,61 @@
 # 3D Tower Defense Game
-**Developed by** [Supreet Patil](https://github.com/supreetpatil79)
 
-A graphics-heavy 3D tower defense game built with OpenGL/GLUT featuring advanced particle systems, modern UI/UX, and stunning visual effects.
+**Developer**: [Supreet Patil](https://github.com/supreetpatil79)
 
-![Game Screenshot](https://img.shields.io/badge/OpenGL-3D%20Graphics-blue)
+A 3D tower defense game built with C++ and OpenGL/GLUT. It features a custom particle system, dynamic lighting, and a modern UI.
+
 ![C++](https://img.shields.io/badge/C++-11-orange)
 ![Platform](https://img.shields.io/badge/Platform-macOS-lightgrey)
+![OpenGL](https://img.shields.io/badge/OpenGL-3D-blue)
 
 ## Features
 
-### 🎆 Advanced Particle System
-- **2000+ simultaneous particles** with physics simulation
-- Spectacular explosions (50+ particles per enemy death)
-- Muzzle flashes when towers shoot
-- Glowing bullet trails
-- Realistic gravity and velocity-based movement
+### Particle System
+* Can handle 2000+ simultaneous particles with basic physics
+* Explosion effects upon enemy defeat
+* Muzzle flashes
+* Bullet trails
+* Gravity and velocity calculations
 
-### 💡 Graphics & Visual Effects
-- **Dynamic lighting** with enhanced ambient, diffuse, and specular
-- **Glowing tower cores** with dual-layer pulsing effects
-- **Rotating energy rings** on towers
-- **Screen shake** on explosions for impact
-- **Animated terrain grid** with pulsing cyberpunk aesthetic
-- **Enhanced fog system** for atmospheric depth
+### Graphics & Effects
+* Dynamic lighting (ambient, diffuse, specular)
+* Glowing elements on tower cores
+* Screen shake for impact feedback
+* Animated terrain grid
+* Fog system
 
-### 🎨 Modern UI/UX
-- **Glassmorphism panels** with semi-transparent backgrounds
-- **Floating damage numbers** in 3D world space
-- **Combo counter system** tracking consecutive kills
-- **Animated welcome screen** with pulsing elements
-- **Professional HUD** with color-coded information
-- **Real-time particle counter** for performance monitoring
+### UI/UX
+* Semi-transparent panels
+* Floating damage numbers
+* Combo counter
+* Animated welcome screen
+* On-screen particle counter for performance monitoring
 
-### 🎮 Gameplay
-- **3 difficulty levels** (Easy, Medium, Hard)
-- **3 tower types** with unique abilities:
-  - **SLOW Tower** (Blue) - Energy spire with rotating rings
-  - **BASIC Tower** (Red) - Industrial cannon with glowing core
-  - **AREA Tower** (Green) - Heavy defense hub with satellites
-- **3 enemy types** with distinct behaviors:
-  - **NORMAL** - Yellow drones with orbital rings
-  - **FAST** - Green needles with speed trails
-  - **TANK** - Purple mechs with heavy armor
-- **Wave-based progression** with increasing difficulty
-- **Resource management** system
+### Gameplay
+* 3 difficulty levels (Easy, Medium, Hard)
+* 3 tower types:
+  * **SLOW Tower** - Energy spire
+  * **BASIC Tower** - Standard cannon
+  * **AREA Tower** - Area of effect defense
+* 3 enemy types:
+  * **NORMAL** - Standard drones
+  * **FAST** - Speedy units
+  * **TANK** - High health units
+* Wave-based progression
+* Resource management
 
-## Screenshots
+## Version Differences
 
-### Enhanced Version Features
-- ✨ Particle explosions
-- 🔫 Muzzle flashes
-- 💫 Glowing trails
-- 📊 Floating damage numbers
-- 📈 Combo system
-- 💥 Screen shake
-- 🌟 Pulsing effects
+### Enhanced Version (`main_enhanced.cpp`)
+This version includes the visual upgrades:
+- Particle explosions and trails
+- Muzzle flashes
+- Floating damage numbers
+- Screen shake
+- Combo system
+
+### Original Version (`main.cpp`)
+The base game without the additional particle effects or advanced UI features.
 
 ## Installation
 
@@ -122,27 +123,12 @@ g++ -std=c++11 -O2 main_enhanced.cpp -framework OpenGL -framework GLUT -o main_e
 - **Language**: C++11
 - **Graphics API**: OpenGL with GLUT
 
-### Architecture
-- Custom particle system with physics
-- 3D-to-2D projection for floating text
-- Multi-layer rendering with transparency
-- Dynamic lighting system
-- Smooth interpolation for animations
-- Efficient vector-based data structures
-
-## Versions
-
-### Original (`main.cpp`)
-- Basic 3D tower defense gameplay
-- Simple graphics and UI
-- Core game mechanics
-
-### Enhanced (`main_enhanced.cpp`)
-- **Particle system** - Explosions, trails, muzzle flashes
-- **Advanced graphics** - Glowing effects, dynamic lighting
-- **Modern UI** - Glassmorphism, floating text, combos
-- **Visual polish** - Screen shake, animations, feedback
-- **Performance optimized** - 60 FPS with 2000 particles
+## Architecture Details
+- Custom particle system
+- 3D-to-2D projection mapping for UI
+- Multi-layer rendering
+- Dynamic lighting model
+- Vector-based data structures
 
 ## Color Palette
 
@@ -180,16 +166,8 @@ This project is open source and available for educational purposes.
 - **UI Design**: Glassmorphism aesthetic
 - **Game Design**: Classic tower defense mechanics
 
-## Future Enhancements
-
-Potential additions:
+## Planned Enhancements
 - Sound effects and music
-- More tower types and upgrades
-- Additional enemy varieties
-- Power-ups and special abilities
-- Multiplayer support
+- New tower variations
+- Additional enemy types
 - Level editor
-
----
-
-**Enjoy defending your base with spectacular visual effects!** 🎮✨
