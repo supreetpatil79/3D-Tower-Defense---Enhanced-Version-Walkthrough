@@ -1,6 +1,6 @@
 # 3D Tower Defense Game
 
-**Developer**: [Supreet Patil](https://github.com/supreetpatil79)
+
 
 A 3D tower defense game built with C++ and OpenGL/GLUT. It features a custom particle system, dynamic lighting, and a modern UI.
 
