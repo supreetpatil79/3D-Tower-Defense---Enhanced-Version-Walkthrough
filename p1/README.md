@@ -1,4 +1,5 @@
 # 3D Tower Defense Game
+**Developed by** [Supreet Patil](https://github.com/supreetpatil79)
 
 A graphics-heavy 3D tower defense game built with OpenGL/GLUT featuring advanced particle systems, modern UI/UX, and stunning visual effects.
 
@@ -66,7 +67,7 @@ A graphics-heavy 3D tower defense game built with OpenGL/GLUT featuring advanced
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/supreetpatil79/3D-Tower-Defense---Enhanced-Version-Walkthrough.git
 cd p1
 
 # Compile original version
@@ -173,6 +174,7 @@ This project is open source and available for educational purposes.
 
 ## Credits
 
+- **Developer**: Supreet Patil
 - **Graphics**: OpenGL & GLUT
 - **Particle System**: Custom implementation
 - **UI Design**: Glassmorphism aesthetic
